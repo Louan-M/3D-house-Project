@@ -35,7 +35,16 @@ Consolidate the knowledge in Python, specifically in :
 
 ## About the Repository
 
-Geopunt
+This project consists of building a 3D model of a house based on an address located in the Flemish region of Belgium. The data used is Lidar data. The Flemish Region has been divided into 43 parts, each encoded into a raster geotiff file (.tif), in two types: DSM and DTM.
+
+### Canopy Height Model
+
+Each raster has a dedicated DSM and DTM. These two are combined together to create a Canopy Height Model (CHM) which is required for the 3D model.
+
+		CHM = DSM - DTM
+
+The files are available online on the *Geopunt.be* website via those links:
+
 
 DTM:http://www.geopunt.be/download?container=dhm-vlaanderen-ii-dtm-raster-1m&title=Digitaal%20Hoogtemodel%20Vlaanderen%20II,%20DTM,%20raster,%201m
 
@@ -43,13 +52,34 @@ DSM: http://www.geopunt.be/download?container=dhm-vlaanderen-ii-dsm-raster-1m&ti
 
 
 
-![3D Plot Beacon Campus Becode](https://github.com/Louan-M/3D-house-Project/blob/main/3D-Plot-images/Becode-Beacon-campus.png)
+### Repository
+
+The main file is "3D-project.ipynb" (Jupyter notebook). 
+The *Utils/* folder contains the csv file (coordinates dataset) used by the program to find the raster.
+
+
+
+## Process
+
+1. Postal address entered by the user converted to geospatial coordinates (Lambert projection (CRS= 31370)) 
+2. From the coordinates, a look into the coordinates dataset (csv file) is done to select the correct raster
+3. Creation of the polygon from the coordinates
+4. Mask (Crop) of the DSM and DTM rasters based on the polygon geometry
+6. Creation of the Canopy Height Model from the masked DSM and DTM
+7. 3D Plot
+
+
+
+### Example of output
+
+![3D Plot Beacon Campus Becode](https://github.com/Louan-M/3D-house-Project/blob/main/3D-Plot-images/Maaltekouter%201%209000%20Gent.png)
+
+
 
 
 ## Challenges
 
 Find the easiest way to get the coordinates from a given address.
-
 
 
 
