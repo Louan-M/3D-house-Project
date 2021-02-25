@@ -55,13 +55,14 @@ DSM: http://www.geopunt.be/download?container=dhm-vlaanderen-ii-dsm-raster-1m&ti
 ### Repository
 
 The main file is "3D-project.ipynb" (Jupyter notebook). 
-The *Utils/* folder contains the csv file (coordinates dataset) used by the program to find the raster.
 
+The *Utils/* folder contains the csv file (coordinates dataset) used by the program to find the raster.
+![Dataset](https://github.com/Louan-M/3D-house-Project/blob/main/Images/dataset.png)
 
 
 ## Process
 
-1. Postal address entered by the user converted to geospatial coordinates (Lambert projection (CRS= 31370)) 
+1. Postal address converted to geospatial coordinates (Lambert projection (CRS= 31370)) 
 2. From the coordinates, a look into the coordinates dataset (csv file) is done to select the correct raster
 3. Creation of the polygon from the coordinates
 4. Mask (Crop) of the DSM and DTM rasters based on the polygon geometry
@@ -72,14 +73,19 @@ The *Utils/* folder contains the csv file (coordinates dataset) used by the prog
 
 ### Example of output
 
-![3D Plot Beacon Campus Becode](https://github.com/Louan-M/3D-house-Project/blob/main/3D-Plot-images/Maaltekouter%201%209000%20Gent.png)
+<img src="https://github.com/Louan-M/3D-house-Project/blob/main/3D-Plot-images/Maaltekouter-1-9000-Gent.png" width="700">
 
+<img src="https://github.com/Louan-M/3D-house-Project/blob/main/3D-Plot-images/Maaltekouter%201%209000%20Gent%20Google%20map%20view.png" width="600">
 
 
 
 ## Challenges
 
 Find the easiest way to get the coordinates from a given address.
+Several issues with environnements (conda) and Linux packages compatibility
+Issues with RAM overlad
+Rendering problems with Plotly (Firefox)
+...
 
 
 
