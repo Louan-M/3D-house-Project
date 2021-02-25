@@ -88,6 +88,7 @@ Several issues with environnements (conda) and Linux packages compatibility
 Issues with RAM overlad
 
 Rendering problems with Plotly (Firefox)
+
 ...
 
 
