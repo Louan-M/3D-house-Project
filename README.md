@@ -72,8 +72,9 @@ The *Utils/* folder contains the csv file (coordinates dataset) used by the prog
 
 ### Example of output
 
-![3D Plot Beacon Campus Becode](https://github.com/Louan-M/3D-house-Project/blob/main/3D-Plot-images/Maaltekouter-1-9000-Gent.png)
+<img src="https://github.com/Louan-M/3D-house-Project/blob/main/3D-Plot-images/Maaltekouter-1-9000-Gent.png" width="700">
 
+<img src="https://github.com/Louan-M/3D-house-Project/blob/main/3D-Plot-images/Maaltekouter%201%209000%20Gent%20Google%20map%20view.png" width="600">
 
 
 
