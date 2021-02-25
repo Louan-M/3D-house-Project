@@ -61,7 +61,7 @@ The *Utils/* folder contains the csv file (coordinates dataset) used by the prog
 
 ## Process
 
-1. Postal address entered by the user converted to geospatial coordinates (Lambert projection (CRS= 31370)) 
+1. Postal address converted to geospatial coordinates (Lambert projection (CRS= 31370)) 
 2. From the coordinates, a look into the coordinates dataset (csv file) is done to select the correct raster
 3. Creation of the polygon from the coordinates
 4. Mask (Crop) of the DSM and DTM rasters based on the polygon geometry
