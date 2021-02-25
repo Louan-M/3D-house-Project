@@ -82,8 +82,11 @@ The *Utils/* folder contains the csv file (coordinates dataset) used by the prog
 ## Challenges
 
 Find the easiest way to get the coordinates from a given address.
+
 Several issues with environnements (conda) and Linux packages compatibility
+
 Issues with RAM overlad
+
 Rendering problems with Plotly (Firefox)
 ...
 
