@@ -55,6 +55,7 @@ DSM: http://www.geopunt.be/download?container=dhm-vlaanderen-ii-dsm-raster-1m&ti
 ### Repository
 
 The main file is "3D-project.ipynb" (Jupyter notebook). 
+
 The *Utils/* folder contains the csv file (coordinates dataset) used by the program to find the raster.
 ![Dataset](https://github.com/Louan-M/3D-house-Project/blob/main/Images/dataset.png)
 
