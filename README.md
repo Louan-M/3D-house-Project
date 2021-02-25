@@ -35,7 +35,28 @@ Consolidate the knowledge in Python, specifically in :
 
 ## About the Repository
 
+Geopunt
+
+DTM:http://www.geopunt.be/download?container=dhm-vlaanderen-ii-dtm-raster-1m&title=Digitaal%20Hoogtemodel%20Vlaanderen%20II,%20DTM,%20raster,%201m
+
+DSM: http://www.geopunt.be/download?container=dhm-vlaanderen-ii-dsm-raster-1m&title=Digitaal%20Hoogtemodel%20Vlaanderen%20II,%20DSM,%20raster,%201m
+
+
+
+![3D Plot Beacon Campus Becode!](3D Plot images/Becode Beacon campus.png)
+
+
 ## Challenges
+
+Find the easiest way to get the coordinates from a given address.
+
+
+
 
 ## Further Improvements
 
+Merge to a web application
+
+Add an interactive input box
+
+Access the rasters directly without downloading them
