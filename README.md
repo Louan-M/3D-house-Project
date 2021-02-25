@@ -43,7 +43,7 @@ DSM: http://www.geopunt.be/download?container=dhm-vlaanderen-ii-dsm-raster-1m&ti
 
 
 
-![3D Plot Beacon Campus Becode!](3D Plot images/Becode Beacon campus.png)
+![3D Plot Beacon Campus Becode](https://github.com/Louan-M/3D-house-Project/blob/main/3D-Plot-images/Becode-Beacon-campus.png)
 
 
 ## Challenges
