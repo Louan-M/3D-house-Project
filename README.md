@@ -1,5 +1,5 @@
 # 3D-house-Project
-
+&nbsp;
 
 - Developer: `Louan Mastrogiovanni`
 - Type of Challenge: `Learning & Consolidation`
@@ -14,13 +14,13 @@
 - Team challenge : `solo`
 &nbsp;
 ## Mission Objectives
-
+&nbsp;
 Consolidate the knowledge in Python, specifically in :
 
 - NumPy
 - Pandas
 - Matplotlib
-
+&nbsp;
 
 ## Learning Objectives
 
