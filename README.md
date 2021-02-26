@@ -12,7 +12,7 @@
 	| Webpage
 	| App
 - Team challenge : `solo`
-
+&nbsp;
 ## Mission Objectives
 
 Consolidate the knowledge in Python, specifically in :
@@ -21,7 +21,7 @@ Consolidate the knowledge in Python, specifically in :
 - Pandas
 - Matplotlib
 
-
+&nbsp;
 ## Learning Objectives
 
 
