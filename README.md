@@ -49,7 +49,7 @@ The files are available online on the *Geopunt.be* website via those links:
 [DTM](http://www.geopunt.be/download?container=dhm-vlaanderen-ii-dtm-raster-1m&title=Digitaal%20Hoogtemodel%20Vlaanderen%20II,%20DTM,%20raster,%201m)
 [DSM](http://www.geopunt.be/download?container=dhm-vlaanderen-ii-dsm-raster-1m&title=Digitaal%20Hoogtemodel%20Vlaanderen%20II,%20DSM,%20raster,%201m)
 
-
+&nbsp;
 
 ### Repository
 
@@ -58,6 +58,8 @@ The main file is "3D-project.ipynb" (Jupyter notebook).
 The *Utils/* folder contains the csv file (coordinates dataset) used by the program to find the raster.
 
 <img src="https://github.com/Louan-M/3D-house-Project/blob/main/Images/dataset.png" width="750">
+
+&nbsp;
 
 ## Process
 
@@ -68,7 +70,7 @@ The *Utils/* folder contains the csv file (coordinates dataset) used by the prog
 6. Creation of the Canopy Height Model from the masked DSM and DTM
 7. 3D Plot
 
-
+&nbsp;
 
 ### Example of output
 
@@ -76,7 +78,7 @@ The *Utils/* folder contains the csv file (coordinates dataset) used by the prog
 
 <img src="https://github.com/Louan-M/3D-house-Project/blob/main/3D-Plot-images/Maaltekouter%201%209000%20Gent%20Google%20map%20view.png" width="600">
 
-
+&nbsp;
 
 ## Challenges
 
@@ -89,7 +91,7 @@ Issues with RAM overlad
 Rendering problems with Plotly (Firefox)
 
 ...
-
+&nbsp;
 
 
 ## Further Improvements
