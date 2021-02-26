@@ -1,5 +1,4 @@
 # 3D-house-Project
-&nbsp;
 
 - Developer: `Louan Mastrogiovanni`
 - Type of Challenge: `Learning & Consolidation`
