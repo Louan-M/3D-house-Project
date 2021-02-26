@@ -31,7 +31,7 @@ Consolidate the knowledge in Python, specifically in :
 * to be able to render a 3D plot
 * to be able to present a final product
 
-
+&nbsp;
 
 ## About the Repository
 
