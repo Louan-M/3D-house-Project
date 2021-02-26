@@ -34,7 +34,7 @@ Consolidate the knowledge in Python, specifically in :
 
 ## About the Repository
 
-This project consists of building a 3D model of a house based on an address located in the Flemish region of Belgium. The data used are [Lidar](https://fr.wikipedia.org/wiki/Lidar) data. The Flemish Region has been divided into 43 parts, each encoded into a raster geotiff file (.tif), in two types: DSM and DTM.
+This project consists of building a 3D model of a house based on an address located in the Flemish region of Belgium. The data used are [Lidar](https://fr.wikipedia.org/wiki/Lidar) data. The Flemish Region has been divided into 43 parts, each encoded into a raster geotiff file (.tif), in two formats: DSM and DTM.
 
 ### Canopy Height Model
 
