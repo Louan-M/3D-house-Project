@@ -54,7 +54,7 @@ The files are available online on the *Geopunt.be* website via those links:
 
 The main file is "**3D-project.ipynb**" (Jupyter notebook). 
 
-The *Utils/* folder contains the csv file (coordinates dataset) used by the program to find the raster.
+The *Utils/* folder contains the csv file (coordinates dataset) used by the program to find the raster in the local drive.
 
 <img src="https://github.com/Louan-M/3D-house-Project/blob/main/Images/dataset.png" width="750">
 
