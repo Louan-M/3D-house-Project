@@ -39,7 +39,7 @@ This project consists of building a 3D model of a house based on an address loca
 
 ### Canopy Height Model
 
-Each raster has a dedicated DSM and DTM. These two are combined together to create a Canopy Height Model (CHM) which is required for the 3D model.
+The DSM and the DTM are combined together to create a Canopy Height Model (CHM) which is required for the 3D model.
 
 		CHM = DSM - DTM
 
